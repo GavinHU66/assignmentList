@@ -78,7 +78,7 @@ treeNode * balanceTree ( treeNode * currentNode ){
   } else if ( Diff < -1 ){
     if ( heightLeftMinusRight ( currentNode -> right ) < 0 ){
       // case 2 Left rotation
-      currentNode = R_rotation ( currentNode );
+      currentNode = L_rotation ( currentNode );
     } else {
       // case 4 Double rotation: right + left
       currentNode = RL_rotation ( currentNode );
