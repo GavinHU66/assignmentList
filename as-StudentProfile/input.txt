@@ -1,0 +1,7 @@
+create profile 303000000 John 11223344
+create profile 303000001 Ted 11223355
+display profile
+create grade 303000000 comp2123 90
+create grade 303000003 comp1117 80
+create grade 303000000 comp2123 98
+display grade comp2123
