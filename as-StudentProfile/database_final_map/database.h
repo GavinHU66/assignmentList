@@ -1,7 +1,9 @@
 /* database.h */
-
+#include <iostream>
 #include <string>
 #include <map>
+#include <vector>
+#include <algorithm>
 using namespace std;
 
 typedef struct profile_t {
@@ -22,8 +24,8 @@ class Database {
 private:
   // studentID : profile
   map < string , Profile > studentData;
-  // classID : grade
-  map < string , Grade > classData;
+  // class_id : grade
+  map < string , vector <Grade> > classData;
 
 
 public:

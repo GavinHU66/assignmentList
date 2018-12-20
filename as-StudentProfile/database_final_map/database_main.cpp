@@ -1,10 +1,5 @@
 /* database_main.cpp */
-/* header files definition, omitted in this document */
-
-
-#include <iostream>
 #include "database.h"
-using namespace std;
 
 int main() {
   string command, command_type;
